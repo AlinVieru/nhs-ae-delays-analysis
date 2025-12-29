@@ -155,24 +155,37 @@ Power BI analysis and visualisation is done after the dataset is cleaned and val
    DIVIDE([DTA 12h+], [Total Attendances]) * 1000
 
    Formatted measures (for KPI display):
+   
    FORMAT([Total Attendances], "#,##0")
+   
    FORMAT([DTA 12h+], "#,##0")
+   
    FORMAT([DTA 4–12h], "#,##0")
+
+   
    FORMAT ( [DTA 12h+ per 1,000], "0.00" ) & " per 1,000"
    Year Month (Display) = FORMAT(ae_working_set[MonthDate], "MMMM/yyyy")
 
  Built the dashboard visuals to answer the question
+ 
  KPI cards for headline totals and rate
+ 
  Monthly trend charts for attendances and delays per 1,000
+ 
  Scatter plot comparing attendances vs 12+ delays to test the relationship
+ 
  Added reference lines and a trend line to support the conclusion
+ 
  Calculated the correlation coefficient (r) between monthly total unplanned attendances and monthly 12+ hour delays,and displayed it.
  
  Set interactions to keep the dashboard stable
+ 
  Clicking a month updates KPIs
+ 
  Cross-filtering between the main charts is disabled to avoid charts collapsing
 
  Summarised what the visuals show and the overall takeaway: 
+ 
   Demand alone does not explain 12+ hour delays.
 
 
