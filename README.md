@@ -165,7 +165,8 @@ Power BI analysis and visualisation is done after the dataset is cleaned and val
    
    -FORMAT ( [DTA 12h+ per 1,000], "0.00" ) & " per 1,000"
    Year Month (Display) = FORMAT(ae_working_set[MonthDate], "MMMM/yyyy")
-
+   
+### Dashboard
  -Built the dashboard visuals to answer the question
  
  -KPI cards for headline totals and rate
@@ -184,9 +185,9 @@ Power BI analysis and visualisation is done after the dataset is cleaned and val
  
  -Cross-filtering between the main charts is disabled to avoid charts collapsing
 
- -Summarised what the visuals show and the overall takeaway: 
+### Summarised what the visuals show and the overall takeaway: 
  
-  Demand alone does not explain 12+ hour delays.
+  **Demand alone does not explain 12+ hour delays.**
 
 
 
