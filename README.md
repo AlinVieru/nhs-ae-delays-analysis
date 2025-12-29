@@ -159,23 +159,23 @@ Power BI analysis and visualisation is done after the dataset is cleaned and val
    - `Year Month (Display) = FORMAT(ae_working_set[MonthDate], "MMMM/yyyy")`
    
 ### Dashboard
- -Built the dashboard visuals to answer the question
+ - Built the dashboard visuals to answer the question
  
- -KPI cards for headline totals and rate
+ - KPI cards for headline totals and rate
  
- -Monthly trend charts for attendances and delays per 1,000
+ - Monthly trend charts for attendances and delays per 1,000
  
- -Scatter plot comparing attendances vs 12+ delays to test the relationship
+ - Scatter plot comparing attendances vs 12+ delays to test the relationship
  
- -Added reference lines and a trend line to support the conclusion
+ - Added reference lines and a trend line to support the conclusion
  
- -Calculated the correlation coefficient (r) between monthly total unplanned attendances and monthly 12+ hour delays,and displayed it.
+ - Calculated the correlation coefficient (r) between monthly total unplanned attendances and monthly 12+ hour delays,and displayed it.
  
- -Set interactions to keep the dashboard stable
+ - Set interactions to keep the dashboard stable
  
- -Clicking a month updates KPIs
+ - Clicking a month updates KPIs
  
- -Cross-filtering between the main charts is disabled to avoid charts collapsing
+ - Cross-filtering between the main charts is disabled to avoid charts collapsing
 
 ### Summarised what the visuals show and the overall takeaway: 
  
