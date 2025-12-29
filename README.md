@@ -14,8 +14,7 @@ The aim is to understand:
 ### Data sources:
 - For collecting data: https://www.england.nhs.uk/statistics/statistical-work-areas/ae-waiting-times-and-activity/ 
                       for 23 months latest available at the moment of writing
-- For definitions / guidance: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2020/08/AE-Attendances-Emergency-Definitions-v5.0-final
- August2020.pdf
+- For definitions / guidance: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2020/08/AE-Attendances-Emergency-Definitions-v5.0-finalAugust2020.pdf
 
 ### Data structure in raw format
 
