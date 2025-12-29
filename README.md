@@ -179,7 +179,8 @@ Power BI analysis and visualisation is done after the dataset is cleaned and val
 
 ### Summarised what the visuals show and the overall takeaway: 
  
-  **Demand alone does not explain 12+ hour delays.**
+    **Demand alone does not explain 12+ hour delays.**
+  
 ---
 
 
