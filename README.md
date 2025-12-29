@@ -143,20 +143,20 @@ Power BI analysis and visualisation is done after the dataset is cleaned and val
 
  ### Created the key measures used in the report
    -Total Attendances:
-   SUM(ae_working_set[total_attendances])
+   `SUM(ae_working_set[total_attendances])`
    -DTA 4–12h:
-   SUM(ae_working_set[waited_4_12h_dta_to_admission])
+   `SUM(ae_working_set[waited_4_12h_dta_to_admission])`
    -DTA 12h+:
-   SUM(ae_working_set[waited_12h_plus_dta_to_admission])
+   `SUM(ae_working_set[waited_12h_plus_dta_to_admission])`
    -12h+ delays per 1,000 (normalised rate):
-   DIVIDE([DTA 12h+], [Total Attendances]) * 1000
+   `DIVIDE([DTA 12h+], [Total Attendances]) * 1000`
    
    Formatted measures (for KPI display):  
-   -FORMAT([Total Attendances], "#,##0") 
-   -FORMAT([DTA 12h+], "#,##0") 
-   -FORMAT([DTA 4–12h], "#,##0")
-   -FORMAT ( [DTA 12h+ per 1,000], "0.00" ) & " per 1,000"
-   -Year Month (Display) = FORMAT(ae_working_set[MonthDate], "MMMM/yyyy")
+   -`FORMAT([Total Attendances], "#,##0")` 
+   -`FORMAT([DTA 12h+], "#,##0")` 
+   -`FORMAT([DTA 4–12h], "#,##0")`
+   -`FORMAT ( [DTA 12h+ per 1,000], "0.00" ) & " per 1,000"`
+   -`Year Month (Display) = FORMAT(ae_working_set[MonthDate], "MMMM/yyyy")`
    
 ### Dashboard
  -Built the dashboard visuals to answer the question
