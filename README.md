@@ -142,49 +142,49 @@ Power BI analysis and visualisation is done after the dataset is cleaned and val
    -Charts display in the correct order (Jan 2024 -> Nov 2025)
 
  ### Created the key measures used in the report
-   Total Attendances:
+   -Total Attendances:
    SUM(ae_working_set[total_attendances])
 
-   DTA 4–12h:
+   -DTA 4–12h:
    SUM(ae_working_set[waited_4_12h_dta_to_admission])
 
-   DTA 12h+:
+   -DTA 12h+:
    SUM(ae_working_set[waited_12h_plus_dta_to_admission])
 
-   12h+ delays per 1,000 (normalised rate):
+   -12h+ delays per 1,000 (normalised rate):
    DIVIDE([DTA 12h+], [Total Attendances]) * 1000
 
    Formatted measures (for KPI display):
    
-   FORMAT([Total Attendances], "#,##0")
+   -FORMAT([Total Attendances], "#,##0")
    
-   FORMAT([DTA 12h+], "#,##0")
+   -FORMAT([DTA 12h+], "#,##0")
    
-   FORMAT([DTA 4–12h], "#,##0")
+   -FORMAT([DTA 4–12h], "#,##0")
 
    
-   FORMAT ( [DTA 12h+ per 1,000], "0.00" ) & " per 1,000"
+   -FORMAT ( [DTA 12h+ per 1,000], "0.00" ) & " per 1,000"
    Year Month (Display) = FORMAT(ae_working_set[MonthDate], "MMMM/yyyy")
 
- Built the dashboard visuals to answer the question
+ -Built the dashboard visuals to answer the question
  
- KPI cards for headline totals and rate
+ -KPI cards for headline totals and rate
  
- Monthly trend charts for attendances and delays per 1,000
+ -Monthly trend charts for attendances and delays per 1,000
  
- Scatter plot comparing attendances vs 12+ delays to test the relationship
+ -Scatter plot comparing attendances vs 12+ delays to test the relationship
  
- Added reference lines and a trend line to support the conclusion
+ -Added reference lines and a trend line to support the conclusion
  
- Calculated the correlation coefficient (r) between monthly total unplanned attendances and monthly 12+ hour delays,and displayed it.
+ -Calculated the correlation coefficient (r) between monthly total unplanned attendances and monthly 12+ hour delays,and displayed it.
  
- Set interactions to keep the dashboard stable
+ -Set interactions to keep the dashboard stable
  
  Clicking a month updates KPIs
  
- Cross-filtering between the main charts is disabled to avoid charts collapsing
+ -Cross-filtering between the main charts is disabled to avoid charts collapsing
 
- Summarised what the visuals show and the overall takeaway: 
+ -Summarised what the visuals show and the overall takeaway: 
  
   Demand alone does not explain 12+ hour delays.
 
