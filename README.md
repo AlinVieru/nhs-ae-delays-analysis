@@ -162,7 +162,6 @@ Power BI analysis and visualisation is done after the dataset is cleaned and val
    
    -FORMAT([DTA 4–12h], "#,##0")
 
-   
    -FORMAT ( [DTA 12h+ per 1,000], "0.00" ) & " per 1,000"
    Year Month (Display) = FORMAT(ae_working_set[MonthDate], "MMMM/yyyy")
    
@@ -181,14 +180,14 @@ Power BI analysis and visualisation is done after the dataset is cleaned and val
  
  -Set interactions to keep the dashboard stable
  
- Clicking a month updates KPIs
+ -Clicking a month updates KPIs
  
  -Cross-filtering between the main charts is disabled to avoid charts collapsing
 
 ### Summarised what the visuals show and the overall takeaway: 
  
   **Demand alone does not explain 12+ hour delays.**
-
+---
 
 
 
